@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Arimo-Bold;
+    src: url(/fonts/Arimo-Bold/Arimo-Bold.woff);
+}
+@font-face {
+    font-family: ChangaOne;
+    src: url(/fonts/ChangaOne/ChangaOne-Regular.woff);
+}
+@font-face {
+    font-family: Comfortaa;
+    src: url(/fonts/Comfortaa/Comfortaa-Regular.woff);
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body{
+    background-color: #4c8f96;
+    margin: 0;
+}
+
+.container{
+    max-width: 65rem;
+    margin: auto;
+}
+
+.logo{
+    background-color: #1a1e33;
+    color: white;
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    padding: 2.3rem 3.125rem;
+    margin: 4rem 0 0;
+    display: inline-block;
+    font-family: Arimo-Bold;
+    position: relative;
+    top: 10px;
+}
+
+.links{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 25px;
+    width: min-content;
+    float: right;
+    margin-top: 7.5rem;
+}
+.links a{
+    background-color: #1a1e33;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.313rem 0.938rem;
+    border-radius: 4px;
+    font-family: Arial;
+    font-size: large;
+}
+.links a:hover{
+    background-color: #335f64;
+}
+
+main{
+    background-color: #ededed;
+    padding: 3rem 0;
+    box-shadow:  0px 0px 2px 1px #ededed;
+}
+
+.hero {
+    margin-bottom: 3rem;
+    border: 1px solid #5fb3bd;
+    border-radius: 5px;
+    background-color: #ffffff;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.hero img{
+    border-radius: 5px;
+    height: 407px;
+    width: auto;
+}
+.hero h2{
+    font-family: Changaone;
+    font-size: 2.5rem;
+    align-self: center;
+}
+
+.featured{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.featured img{
+    border-style: solid;
+    border-color: #5fb3bd;
+    border-radius: 5px;
+    transform: scaleX(-1);
+    filter: drop-shadow(0px 6px 7px #000000);
+}
+.featured .card{
+    font-weight: lighter;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+}
