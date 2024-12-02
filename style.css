@@ -25,6 +25,11 @@ body{
     max-width: 65rem;
     margin: auto;
 }
+main{
+    background-color: #ededed;
+    padding: 3rem 0;
+    box-shadow:  0px 0px 2px 1px #ededed;
+}
 
 .logo{
     background-color: #1a1e33;
@@ -61,12 +66,6 @@ body{
     background-color: #335f64;
 }
 
-main{
-    background-color: #ededed;
-    padding: 3rem 0;
-    box-shadow:  0px 0px 2px 1px #ededed;
-}
-
 .hero {
     margin-bottom: 3rem;
     border: 2px solid #5fb3bd;
@@ -101,6 +100,7 @@ main{
     border-radius: 5px;
     filter: drop-shadow(0px 6px 7px #000000);
     margin-bottom: 2.5rem;
+    max-width: 232px;
 }
 .card{
     font-family: Arial, Helvetica, sans-serif;
