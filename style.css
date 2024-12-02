@@ -52,7 +52,7 @@ body{
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 0.313rem 0.938rem;
+    padding: 0.413rem 0.938rem;
     border-radius: 4px;
     font-family: Arial;
     font-size: large;
@@ -86,6 +86,7 @@ main{
     font-family: Changaone;
     font-size: 2.5rem;
     align-self: center;
+    font-weight: 100;
 }
 
 .featured{
@@ -98,15 +99,20 @@ main{
     border: 5px solid #5fb3bd;
     border-color: #5fb3bd;
     border-radius: 5px;
-    transform: scaleX(-1);
     filter: drop-shadow(0px 6px 7px #000000);
     margin-bottom: 2.5rem;
 }
-.featured .card{
+.card{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8rem;
-    line-height: 1.5rem
 }
-.featured .card h3{
+.card h3{
     font-weight: 100;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.card p{
+    margin-top: 5px;
+    font-size: 0.8rem;
+    line-height: 1.8rem
 }
