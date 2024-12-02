@@ -93,7 +93,6 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .featured img{
     border: 5px solid #5fb3bd;
@@ -101,9 +100,13 @@ main{
     border-radius: 5px;
     transform: scaleX(-1);
     filter: drop-shadow(0px 6px 7px #000000);
+    margin-bottom: 2.5rem;
 }
 .featured .card{
-    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
-    line-height: 1.3rem;
+    line-height: 1.5rem
+}
+.featured .card h3{
+    font-weight: 100;
 }
