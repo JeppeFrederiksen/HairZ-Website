@@ -30,6 +30,7 @@ main{
     background-color: #ededed;
     padding: 3rem 0;
     box-shadow:  0px 0px 2px 1px #ededed;
+    max-height: fit-content;
 }
 
 .logo{
@@ -100,7 +101,7 @@ main{
     border: 5px solid #5fb3bd;
     border-color: #5fb3bd;
     border-radius: 5px;
-    filter: drop-shadow(0px 6px 7px #000000);
+    filter: drop-shadow(0px 6px 7px #000000); 
     margin-bottom: 2.5rem;
     max-width: 232px;
 }
@@ -116,19 +117,19 @@ main{
 .card p{
     margin-top: 5px;
     font-size: 0.8rem;
-    line-height: 1.8rem
+    line-height: 1.8rem;
 }
 
 
 .boxes{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     column-gap: 25px;
     row-gap: 25px;
     margin-top: 50px;
     font-family: Arial;
-    line-height: 1.8rem
+    font-size: 0.8rem;
+    line-height: 1.8rem;
 }
 .boxes h1{
     background-color: #1a1e33;
@@ -154,15 +155,16 @@ main{
     object-fit: cover;
     max-width: 120px;
     display: inline;
-    margin: 0 20px;
+    margin: 10px 20px;
 }
 .box1 h2{
     display: inline;
     font-weight: 100;
-    vertical-align: top;
+    vertical-align: 390%;
+    font-size: 1.4rem;
+    color: #364057;
 }
 .box1 p{
-    font-size: 14px;
     margin: 30px 20px;
 }
 
@@ -181,7 +183,37 @@ main{
     border-radius: 5px;
     background-color: #519194;
     color: #ededed;
+    margin: 0 0 50px;
 }
 .box3 img{
-    max-width: 100px;
+    position: relative;
+    max-width: 250px;
+    margin: -15px 0 -10px;
+    float: left ;
+}
+.box3 p{
+    font-weight: 550;
+    font-size: 1.1rem;
+    margin: 45px 0 0;
+    line-height: 2.5rem;
+}
+
+
+footer p{
+    color: white;
+    font-family: arial;
+    text-align: center;
+    margin: 60px 0 0;
+}
+.socials{
+    max-height: 100px;
+    display: grid;
+    float: right;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    background-color: #387a82;
+    padding: 25px;
+    margin: 0 250px 0;
+    bottom: 40px;
 }
