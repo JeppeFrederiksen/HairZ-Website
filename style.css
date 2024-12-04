@@ -206,7 +206,7 @@ footer p{
     margin: 60px 0 0;
 }
 .socials{
-    max-height: 100px;
+    max-width: 150px;
     display: grid;
     float: right;
     position: relative;
@@ -214,6 +214,12 @@ footer p{
     column-gap: 20px;
     background-color: #387a82;
     padding: 25px;
-    margin: 0 250px 0;
     bottom: 40px;
+}
+.socials svg{
+    width: 22px;
+    fill: #20646c;
+}
+.socials svg:hover{
+    fill: #10444c;
 }
